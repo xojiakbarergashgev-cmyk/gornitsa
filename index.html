@@ -65,6 +65,8 @@ h1 span{color:var(--accent)}
 .price small{font-family:var(--body);font-size:12px;font-weight:500;color:var(--muted)}
 dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:13px}
 dt{color:var(--muted)} dd{margin:0;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.ph,.nm{cursor:pointer}
+.contact a.tel{color:inherit;text-decoration:none}
 .acts{margin-top:auto;display:flex;gap:6px;padding-top:4px}
 .btn{flex:1;text-align:center;text-decoration:none;font:700 13px var(--body);padding:9px 8px;border-radius:10px;border:1px solid var(--line);color:var(--ink);background:transparent;cursor:pointer}
 .btn.pri{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
@@ -90,8 +92,8 @@ footer{color:var(--muted);font-size:13px;padding-block:20px 40px;border-top:1px 
       <p class="sub">Ulgurji idish-tovoq katalogi. Bo'limni tanlang: har bir tovar raqamlangan, rasmi, narxi va artikuli bilan.</p>
     </div>
     <div class="contact">
-      <div>Buyurtma: <b>@M_Sagdullayev</b></div>
-      <div>Telefon: <b>+998 97 703 51 31</b></div>
+      <div>Buyurtma: <a class="tel" href="https://t.me/+998977035131" target="_blank" rel="noopener"><b>Telegramda yozish</b></a></div>
+      <div>Telefon: <a class="tel" href="tel:+998977035131"><b>+998 97 703 51 31</b></a></div>
       <div>Manzil: Eski Chinni bozor, 3-qator, 44-do'kon</div>
     </div>
   </div>
@@ -116,9 +118,9 @@ footer{color:var(--muted);font-size:13px;padding-block:20px 40px;border-top:1px 
   <div class="grid" id="grid"><div class="loading">Tovarlar yuklanmoqda…</div></div>
 </main>
 
-<footer class="wrap">Ma'lumotlar Telegram kanalidan olingan: t.me/EMALGORNITSAPLAST. Narxlar ulgurji, AQSh dollarida. Tovarning barcha rasmlarini ko'rish uchun kartochkadagi "Rasmlari" tugmasini bosing.</footer>
+<footer class="wrap">Ma'lumotlar Telegram kanalidan olingan: t.me/EMALGORNITSAPLAST. Narxlar ulgurji, AQSh dollarida. Tovar rasmini bossangiz, batafsil ma'lumot ochiladi. Buyurtma uchun: +998 97 703 51 31.</footer>
 
-<dialog id="dlg"><div class="dlg" style="position:relative"><button class="x" id="x" aria-label="Yopish">×</button><img id="dImg" alt=""><div class="in"><div class="nm" id="dNm" style="-webkit-line-clamp:unset"></div><div class="price" id="dPr"></div><pre id="dDs"></pre><div class="acts"><a class="btn" id="dTg" target="_blank" rel="noopener">Barcha rasmlari</a><a class="btn pri" href="https://t.me/M_Sagdullayev" target="_blank" rel="noopener">Buyurtma berish</a></div></div></div></dialog>
+<dialog id="dlg"><div class="dlg" style="position:relative"><button class="x" id="x" aria-label="Yopish">×</button><img id="dImg" alt=""><div class="in"><div class="nm" id="dNm" style="-webkit-line-clamp:unset"></div><div class="price" id="dPr"></div><pre id="dDs"></pre><div class="acts"><a class="btn" id="dTg" target="_blank" rel="noopener">Barcha rasmlari</a><a class="btn pri" href="https://t.me/+998977035131" target="_blank" rel="noopener">Buyurtma berish</a></div><div class="acts"><a class="btn" href="tel:+998977035131">Qo'ng'iroq qilish</a></div></div></div></dialog>
 
 <script>
 // Bo'limlar ro'yxati
@@ -152,8 +154,8 @@ function kartochka(t){
     ${t.n>1?`<span class="badge">${t.n} ta rasm${t.v?' · video':''}</span>`:''}</div>
     <div class="body"><p class="nm">${xavfsiz(t.nm)}</p><div class="price">${narx(t.pr)}</div>
     <dl>${t.ar?`<dt>Artikul</dt><dd>${xavfsiz(t.ar)}</dd>`:''}${t.pk?`<dt>Qutida</dt><dd>${t.pk} dona</dd>`:''}${t.og?`<dt>Ishlab chiq.</dt><dd>${t.og}</dd>`:''}</dl>
-    <div class="acts"><button class="btn" type="button">Batafsil</button><a class="btn pri" href="https://t.me/EMALGORNITSAPLAST/${t.id}" target="_blank" rel="noopener">Rasmlari</a></div></div>`;
-  d.querySelector('button').onclick=()=>ochish(t);
+    <div class="acts"><a class="btn" href="https://t.me/EMALGORNITSAPLAST/${t.id}" target="_blank" rel="noopener">Rasmlari</a><a class="btn pri" href="https://t.me/+998977035131" target="_blank" rel="noopener">Buyurtma</a></div></div>`;
+  d.querySelector('.ph').onclick=()=>ochish(t); d.querySelector('.nm').onclick=()=>ochish(t);
   return d;
 }
 
