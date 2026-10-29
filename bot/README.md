@@ -24,3 +24,12 @@ Bot @gornitsauz_admin_bot uchun. Cloudflare Workers'da bepul ishlaydi, server ke
 3. `BOT_TOKEN` so'ralganda BotFather bergan tokenni kiriting va **Apply** ni bosing.
 4. Xizmat ishga tushgach, uning manzilini oching va oxiriga `/sozla` qo'shing: `https://gornitsa-bot.onrender.com/sozla`. "Tayyor!" chiqishi kerak.
 5. Uxlab qolmasligi uchun cron-job.org saytida har 10 daqiqada `https://gornitsa-bot.onrender.com/` manzilini ochadigan bepul vazifa yarating.
+
+## Railway'da ishga tushirish (24/7, uxlamaydi)
+1. railway.com saytiga kiring (GitHub, Google yoki pochta bilan).
+2. **New Project → Deploy from GitHub repo** ni tanlang va `gornitsa` omborini tanlang.
+   GitHub ulanmasa: **New Project → Empty Project → + Create → GitHub Repo**, yoki ombor havolasini qo'ying.
+3. Xizmat **Settings** bo'limida **Root Directory** ga `bot` deb yozing.
+4. **Variables** bo'limida `BOT_TOKEN` qo'shing (BotFather bergan token).
+5. **Settings → Networking → Generate Domain** ni bosing.
+6. Chiqqan manzilning oxiriga `/sozla` qo'shib oching. "Tayyor!" chiqishi kerak.
