@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: gornitsa-bot
+    runtime: node
+    plan: free
+    rootDir: bot
+    buildCommand: echo "qurish shart emas"
+    startCommand: node server.mjs
+    envVars:
+      - key: BOT_TOKEN
+        sync: false

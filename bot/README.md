@@ -17,3 +17,10 @@ Bot @gornitsauz_admin_bot uchun. Cloudflare Workers'da bepul ishlaydi, server ke
 4. **Settings → Variables and Secrets → Add** ga o'ting. Nomi: `BOT_TOKEN`, turi: **Secret**, qiymati: BotFather bergan token. Saqlang.
 5. Brauzerda `https://gornitsa-bot.<sizning-nomingiz>.workers.dev/sozla` manzilini oching. "Tayyor!" yozuvi chiqishi kerak.
 6. Telegram'da botga /start yozing.
+
+## Render'da ishga tushirish (24/7)
+1. render.com saytiga **GitHub** hisobingiz bilan kiring.
+2. **New → Blueprint** ni bosing va `gornitsa` omborini tanlang. `render.yaml` o'zi o'qiladi.
+3. `BOT_TOKEN` so'ralganda BotFather bergan tokenni kiriting va **Apply** ni bosing.
+4. Xizmat ishga tushgach, uning manzilini oching va oxiriga `/sozla` qo'shing: `https://gornitsa-bot.onrender.com/sozla`. "Tayyor!" chiqishi kerak.
+5. Uxlab qolmasligi uchun cron-job.org saytida har 10 daqiqada `https://gornitsa-bot.onrender.com/` manzilini ochadigan bepul vazifa yarating.
