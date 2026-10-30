@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 70" width="380" height="70">
+  <defs>
+    <linearGradient id="logoFlame" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#b83216"/>
+      <stop offset="50%" stop-color="#e25822"/>
+      <stop offset="100%" stop-color="#f5a623"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0d5b8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Flame / Cookware icon badge -->
+  <g transform="translate(10, 8)">
+    <rect x="0" y="0" width="54" height="54" rx="14" fill="#1e1814" stroke="#e2723c" stroke-width="1.8" opacity="0.95"/>
+    <path d="M27 8 C22 17, 16 23, 16 33 C16 41, 21 46, 27 46 C33 46, 38 41, 38 33 C38 27, 33 22, 31 18 C30 22, 28 24, 26 24 C27 20, 29 14, 27 8 Z" fill="url(#logoFlame)"/>
+    <ellipse cx="27" cy="38" rx="4" ry="5.5" fill="#ffd166" opacity="0.9"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="76" y="36" font-family="'Outfit', 'Montserrat', 'Arial Black', sans-serif" font-size="27" font-weight="900" fill="url(#goldText)" letter-spacing="3">GORNITSA</text>
+  <text x="78" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="800" fill="#f5a623" letter-spacing="3.5">O'ZBEKISTON</text>
+</svg>

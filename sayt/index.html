@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GORNITSA O'ZBEKISTON — Rasmiy Do'kon | Qozon, Kastryulka, Tova, Blinnitsa, Kovsh, Nabor</title>
+    <meta name="description" content="GORNITSA O'ZBEKISTON — Rossiyaning asl quyma alyuminiy va granit qoplamali idishlari. Qozonlar (4-10L), Kastryulkalar (2-10L), Tovalar (20-30 sm), Blinnitsa, Kovsh, Grilnitsa va 10 talik nabor.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Announcement Bar -->
+    <div class="top-announcement" id="top-bar">
+        <div class="container top-bar-content">
+            <div class="announcement-left">
+                <span class="announcement-tag">GORNITSA O'ZBEKISTON</span>
+                <p>O'zbekistondagi rasmiy vakil — To'g'ridan-to'g'ri zavod narxlarida yetkazib berish!</p>
+            </div>
+            <div class="top-contacts">
+                <a href="tel:+998977035131" class="phone-link">
+                    <span>Для заказов:</span> <strong>+998 97 703 51 31</strong>
+                </a>
+                <span class="divider-dot">•</span>
+                <a href="tel:+998954115555" class="phone-link admin-link">
+                    <span>Администратор:</span> <strong>+998 95 411 55 55</strong>
+                </a>
+                <span class="divider-dot">•</span>
+                <a href="https://t.me/EMALGORNITSAPLAST" target="_blank" class="tg-channel-btn">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+                    Telegram: <strong>@EMALGORNITSAPLAST</strong>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="site-header" id="header">
+        <div class="container header-container">
+            <a href="#" class="brand-logo" id="brand-logo">
+                <img src="images/logo_official.png" alt="GORNITSA Rasmiy Logotipi" class="header-logo-img">
+                <span class="logo-country-tag">O'ZBEKISTON</span>
+            </a>
+
+            <nav class="main-nav" id="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#katalog" class="nav-item nav-katalog">Katalog</a></li>
+                    <li><a href="#catalog" class="nav-item">Gornitsa</a></li>
+                                        <li><a href="#spotlight-nabor" class="nav-item">10 Набор (130 долларов)</a></li>
+                    <li><a href="#about" class="nav-item">Преимущества</a></li>
+                    <li><a href="#technology" class="nav-item">Технологии</a></li>
+                    <li><a href="#contacts" class="nav-item">Связь</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="cart-trigger-btn" id="open-cart-btn" aria-label="Savatcha">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    <span class="cart-badge" id="cart-counter">0</span>
+                    <span class="cart-text">Savat</span>
+                </button>
+                <a href="https://t.me/EMALGORNITSAPLAST" target="_blank" class="btn btn-primary btn-header" id="header-tg-btn">
+                    <span>Telegram Kanal</span>
+                </a>
+                <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Menyu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-drawer">
+        <ul class="mobile-nav-links">
+            <li><a href="#katalog" class="mobile-nav-item nav-katalog">Katalog</a></li>
+                    <li><a href="#catalog" class="mobile-nav-item">Gornitsa</a></li>
+                        <li><a href="#spotlight-nabor" class="mobile-nav-item">10 Набор (130 долларов)</a></li>
+            <li><a href="#about" class="mobile-nav-item">Преимущества</a></li>
+            <li><a href="#technology" class="mobile-nav-item">Технологии</a></li>
+            <li><a href="#contacts" class="mobile-nav-item">Связь</a></li>
+        </ul>
+        <div class="mobile-drawer-contacts">
+            <p><strong>Для заказов:</strong> <a href="tel:+998977035131">+998 97 703 51 31</a></p>
+            <p><strong>Администратор:</strong> <a href="tel:+998954115555">+998 95 411 55 55</a></p>
+            <p><strong>Telegram:</strong> <a href="https://t.me/EMALGORNITSAPLAST" target="_blank">@EMALGORNITSAPLAST</a></p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="sparkle">★</span> 100% Asl Zavod Mahsuloti • Rossiya
+                </div>
+                <h1 class="hero-title">
+                    GORNITSA O'ZBEKISTON
+                </h1>
+                <p class="hero-description">
+                    Rossiyaning "GORNITSA" quyma alyuminiy va granit idishlar zavodining O'zbekistondagi rasmiy do'koni. 
+                    Qozonlar (4L–10L), Kastryulkalar (2L–10L), Tovalar, Blinnitsalar, Kovshlar va 10 talik to'liq nabor — har bir hajm bo'yicha interaktiv tanlov!
+                </p>
+                <div class="hero-actions">
+                    <a href="#katalog" class="btn btn-primary btn-lg" id="hero-catalog-btn">
+                        <span>Katalogni ko'rish</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="#spotlight-nabor" class="btn btn-glass btn-lg">
+                        <span>10 talik Nabor (130$)</span>
+                    </a>
+                </div>
+                <div class="hero-contacts-bar">
+                    <div class="contact-pill">
+                        <span class="pill-label">Buyurtmalar:</span>
+                        <a href="tel:+998977035131" class="pill-value">+998 97 703-51-31</a>
+                    </div>
+                    <div class="contact-pill">
+                        <span class="pill-label">Admin:</span>
+                        <a href="tel:+998954115555" class="pill-value">+998 95 411-55-55</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <div class="hero-3d"><img src="images/qozon.png" alt="Gornitsa granit qozon" class="p3d-img" id="hero-img"></div>
+                    <div class="hero-floating-card card-top">
+                        <div class="floating-icon">🔥</div>
+                        <div class="floating-info">
+                            <strong>GORNITSA O'ZBEKISTON</strong>
+                            <span>Qalin quyma tub, aslo kuymaydi</span>
+                        </div>
+                    </div>
+                    <div class="hero-floating-card card-bottom">
+                        <div class="floating-icon">💎</div>
+                        <div class="floating-info">
+                            <strong>Granit Qoplama</strong>
+                            <span>Yog'siz sog'lom taomlar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10 TALIK NABOR SPECIAL SPOTLIGHT -->
+    <!-- KATALOG: Sirli idishlar, Xitoy naborlari, Bitplast, Soatlar va boshqalar bitta joyda -->
+    <section class="section section-catalog section-all" id="katalog">
+        <div class="container">
+            <div class="all-hero">
+                <img src="images/oshxona.jpg" alt="Oshxonada granit qoplamali qozon" class="all-hero-img" loading="lazy">
+                <div class="all-hero-text">
+                    <span class="section-tag">Katalog</span>
+                    <h2 class="section-title">Katalog — 764 ta tovar</h2>
+                    <p class="section-subtitle">Sirli idishlar, Xitoy naborlari va Bitplast — hammasi bitta joyda. Har bir tovar raqamlangan, ulgurji narxi bilan. Tovarni surib, 3D ko'ring. Gornitsa idishlari — <a href="#catalog" class="all-link">yuqoridagi vitrinada</a>.</p>
+                </div>
+            </div>
+
+            <div class="catalog-tabs" id="all-tabs"></div>
+
+            <div class="all-tools">
+                <input type="search" id="all-search" class="all-search" placeholder="Raqam, nom yoki artikul bo'yicha qidirish" aria-label="Qidirish">
+                <span class="all-count" id="all-count"></span>
+            </div>
+
+            <div class="products-grid" id="all-grid"></div>
+            <div class="all-more" id="all-more"></div>
+        </div>
+    </section>
+
+    <section class="section section-spotlight" id="spotlight-nabor">
+        <div class="container">
+            <div class="spotlight-box">
+                <div class="spotlight-content">
+                    <span class="spotlight-tag">Super Aksiya • To'liq Oshxona To'plami</span>
+                    <h2 class="spotlight-title">GORNITSA 10 Talik To'liq Nabor — 130 $</h2>
+                    <p class="spotlight-text">
+                        Yangi oilalar, to'y sovg'alari va oshxonani to'liq jihozlash uchun eng mashhur 10 talik granit idishlar to'plami. Qozon, kastryulka, tova, blinnitsa, kovsh va pishiq shisha qopqoqlar jamlangan!
+                    </p>
+                    <ul class="spotlight-list">
+                        <li><span>✓</span> <strong>Qozon</strong> — shisha qopqoqli</li>
+                        <li><span>✓</span> <strong>Kastryulka</strong> — shisha qopqoqli</li>
+                        <li><span>✓</span> <strong>Chuqur Tova</strong> — shisha qopqoqli</li>
+                        <li><span>✓</span> <strong>Blinnitsa (Quymoq tova)</strong> — 24 sm</li>
+                        <li><span>✓</span> <strong>Kovsh</strong> — dastali kichik qozoncha</li>
+                        <li><span>✓</span> <strong>Shisha klapanli qopqoqlar</strong> to'plami</li>
+                    </ul>
+                    <div class="spotlight-actions">
+                        <button class="btn btn-primary add-to-cart-direct" data-id="nabor-10" data-name="GORNITSA 10 Talik To'liq Nabor" data-usd="130" data-uzs="1670000" data-img="images/nabor_10.jpg">
+                            Savatga Qo'shish — 130 $ (~ 1 670 000 so'm)
+                        </button>
+                        <a href="https://t.me/EMALGORNITSAPLAST" target="_blank" class="btn btn-outline">
+                            Telegramda Ko'rish
+                        </a>
+                    </div>
+                </div>
+                <div class="spotlight-image">
+                    <img src="images/nabor_10.jpg" alt="Gornitsa 10 talik nabor" class="spotlight-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Interactive Catalog Section -->
+    <section class="section section-catalog" id="catalog">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Interaktiv Hajm Tanlash</span>
+                <h2 class="section-title">GORNITSA O'ZBEKISTON Mahsulotlar Vitrinasi</h2>
+                <p class="section-subtitle">
+                    Tugmachalarni bosib kerakli hajm yoki diametrni tanlang (2L, 4L, 6L, 8L, 10L). Narx va rasm o'lchami darhol o'zgaradi!
+                </p>
+            </div>
+
+            <!-- Category Filter Tabs -->
+            <div class="catalog-tabs" id="catalog-tabs">
+                <button class="tab-btn active" data-category="all">Barchasi (Hammasi)</button>
+                <button class="tab-btn" data-category="kastryul">Kastryulkalar (2L — 10L)</button>
+                <button class="tab-btn" data-category="qozon">Qozonlar (4L — 10L)</button>
+                <button class="tab-btn" data-category="tova_c">Chuqur Tovalar (20 sm — 30 sm)</button>
+                <button class="tab-btn" data-category="blinnitsa">Blinnitsalar (22 — 26 sm)</button>
+                <button class="tab-btn" data-category="tova_klassik">Klassik Tovalar (22 — 26 sm)</button>
+                <button class="tab-btn" data-category="kovsh">Kovshlar (1.0L — 2.0L)</button>
+                <button class="tab-btn" data-category="grill">Grill Tovalar (26 — 28 sm)</button>
+                <button class="tab-btn" data-category="zharovnya">Jaronvyalar (3.5L — 5.5L)</button>
+                <button class="tab-btn" data-category="nabor">10 talik Nabor (130$)</button>
+            </div>
+
+            <!-- Master Interactive Product Cards Grid -->
+            <div class="products-grid" id="products-grid">
+
+                <!-- 1. KASTRYULKA (EXACTLY LIKE PHOTO 3: 2L -> 3L -> 4L -> 5L -> 7L -> 8L -> 10L) -->
+                <div class="master-product-card" data-category="kastryul" id="card-kastryul">
+                    <div class="master-image-box">
+                        <img src="images/kastryul.png" alt="Gornitsa Granit Kastryul" class="master-img scale-5l" id="img-kastryul">
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Quyma Idish</span>
+                        <h3 class="product-title">Gornitsa Granit Kastryul</h3>
+                        <p class="product-brief">Qalin quyma alyuminiy korpus, zanglamaydigan po'lat tutqich va shisha qopqoq.</p>
+
+                        <!-- Size Pills exactly as requested in photo 3 -->
+                        <div class="selector-block">
+                            <span class="selector-label">Hajmi (Litr):</span>
+                            <div class="size-pills" data-target="kastryul">
+                                <button type="button" class="size-pill" data-size="2 L" data-usd="18" data-uzs="231000" data-scale="scale-2l">2 L</button>
+                                <button type="button" class="size-pill" data-size="3 L" data-usd="19" data-uzs="244000" data-scale="scale-3l">3 L</button>
+                                <button type="button" class="size-pill" data-size="4 L" data-usd="21" data-uzs="270000" data-scale="scale-4l">4 L</button>
+                                <button type="button" class="size-pill active" data-size="5 L" data-usd="23" data-uzs="295000" data-scale="scale-5l">5 L</button>
+                                <button type="button" class="size-pill" data-size="7 L" data-usd="26" data-uzs="334000" data-scale="scale-7l">7 L</button>
+                                <button type="button" class="size-pill" data-size="8 L" data-usd="26.5" data-uzs="340000" data-scale="scale-8l">8 L</button>
+                                <button type="button" class="size-pill" data-size="10 L" data-usd="29.5" data-uzs="379000" data-scale="scale-10l">10 L</button>
+                            </div>
+                        </div>
+
+                        <!-- Price display box -->
+                        <div class="price-box-highlight">
+                            <span class="optom-tag" id="tag-kastryul">OPTOM NARXI: 5 L uchun</span>
+                            <div class="active-price-usd" id="usd-kastryul">23 $</div>
+                            <div class="active-price-uzs" id="uzs-kastryul">~ 295 000 so'm</div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block master-add-btn" id="btn-kastryul" data-base-name="Gornitsa Granit Kastryul" data-size="5 L" data-usd="23" data-uzs="295000" data-img="images/kastryul.jpg">
+                            Savatga Qo'shish
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 2. QOZON (4L -> 6L -> 8L -> 10L) -->
+                <div class="master-product-card" data-category="qozon" id="card-qozon">
+                    <div class="master-image-box">
+                        <img src="images/qozon.png" alt="Gornitsa Granit Qozon" class="master-img scale-6l" id="img-qozon">
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Qozon</span>
+                        <h3 class="product-title">Gornitsa Granit Qozon</h3>
+                        <p class="product-brief">Asl Rossiya zavod qozoni. Shisha qopqoqli, qalin devorli, palov va dimlama uchun.</p>
+
+                        <!-- Size Pills -->
+                        <div class="selector-block">
+                            <span class="selector-label">Hajmi (Litr):</span>
+                            <div class="size-pills" data-target="qozon">
+                                <button type="button" class="size-pill" data-size="4 L" data-usd="21" data-uzs="270000" data-scale="scale-4l">4 L</button>
+                                <button type="button" class="size-pill active" data-size="6 L" data-usd="25" data-uzs="321000" data-scale="scale-6l">6 L</button>
+                                <button type="button" class="size-pill" data-size="8 L" data-usd="27" data-uzs="347000" data-scale="scale-8l">8 L</button>
+                                <button type="button" class="size-pill" data-size="10 L" data-usd="29.5" data-uzs="379000" data-scale="scale-10l">10 L</button>
+                            </div>
+                        </div>
+
+                        <!-- Price display box -->
+                        <div class="price-box-highlight">
+                            <span class="optom-tag" id="tag-qozon">OPTOM NARXI: 6 L uchun</span>
+                            <div class="active-price-usd" id="usd-qozon">25 $</div>
+                            <div class="active-price-uzs" id="uzs-qozon">~ 321 000 so'm</div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block master-add-btn" id="btn-qozon" data-base-name="Gornitsa Granit Qozon" data-size="6 L" data-usd="25" data-uzs="321000" data-img="images/qozon.jpg">
+                            Savatga Qo'shish
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 3. BLINNITSA (22 sm -> 24 sm -> 26 sm) - USER UPLOADED PHOTO -->
+                <div class="master-product-card" data-category="blinnitsa" id="card-blinnitsa">
+                    <div class="master-image-box">
+                        <img src="images/blinnitsa.png" alt="Gornitsa Blinnitsa" class="master-img scale-24sm" id="img-blinnitsa">
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Quymoq Tova</span>
+                        <h3 class="product-title">Gornitsa Granit Blinnitsa</h3>
+                        <p class="product-brief">Past chetlari va o'ta silliq granit yuzasi quymoq (blinchik)larni oson ag'darish imkonini beradi.</p>
+
+                        <!-- Size Pills -->
+                        <div class="selector-block">
+                            <span class="selector-label">Diametri (sm):</span>
+                            <div class="size-pills" data-target="blinnitsa">
+                                <button type="button" class="size-pill" data-size="22 sm" data-usd="11.5" data-uzs="147000" data-scale="scale-22sm">22 sm</button>
+                                <button type="button" class="size-pill active" data-size="24 sm" data-usd="12.8" data-uzs="164000" data-scale="scale-24sm">24 sm</button>
+                                <button type="button" class="size-pill" data-size="26 sm" data-usd="13.5" data-uzs="173000" data-scale="scale-26sm">26 sm</button>
+                            </div>
+                        </div>
+
+                        <!-- Price display box -->
+                        <div class="price-box-highlight">
+                            <span class="optom-tag" id="tag-blinnitsa">OPTOM NARXI: 24 sm uchun</span>
+                            <div class="active-price-usd" id="usd-blinnitsa">12.8 $</div>
+                            <div class="active-price-uzs" id="uzs-blinnitsa">~ 164 000 so'm</div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block master-add-btn" id="btn-blinnitsa" data-base-name="Gornitsa Blinnitsa" data-size="24 sm" data-usd="12.8" data-uzs="164000" data-img="images/blinnitsa.jpg">
+                            Savatga Qo'shish
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 4. CHUQUR TOVALAR C-SERIYA (C-2052 dan C-3052 gacha) -->
+                <div class="master-product-card" data-category="tova_c" id="card-tovac">
+                    <div class="master-image-box">
+                        <img src="images/soteynik_tova.png" alt="Gornitsa Chuqur Tova" class="master-img scale-26sm" id="img-tovac">
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Chuqur Tova</span>
+                        <h3 class="product-title">Gornitsa Chuqur Tova (C-seriya)</h3>
+                        <p class="product-brief">Shisha qopqoqli va baland devorli, qovurish va dimlash uchun eng sevimli tova.</p>
+
+                        <!-- Size Pills -->
+                        <div class="selector-block">
+                            <span class="selector-label">Model va Diametri:</span>
+                            <div class="size-pills" data-target="tovac">
+                                <button type="button" class="size-pill" data-size="C-2052 (20 sm)" data-usd="16" data-uzs="205000" data-scale="scale-20sm">C-2052 (20 sm)</button>
+                                <button type="button" class="size-pill" data-size="C-2252 (22 sm)" data-usd="17" data-uzs="218000" data-scale="scale-22sm">C-2252 (22 sm)</button>
+                                <button type="button" class="size-pill" data-size="C-2452 (24 sm)" data-usd="18" data-uzs="231000" data-scale="scale-24sm">C-2452 (24 sm)</button>
+                                <button type="button" class="size-pill active" data-size="C-2652 (26 sm)" data-usd="20" data-uzs="257000" data-scale="scale-26sm">C-2652 (26 sm)</button>
+                                <button type="button" class="size-pill" data-size="C-2852 (28 sm)" data-usd="21" data-uzs="270000" data-scale="scale-28sm">C-2852 (28 sm)</button>
+                                <button type="button" class="size-pill" data-size="C-3052 (30 sm)" data-usd="23" data-uzs="295000" data-scale="scale-30sm">C-3052 (30 sm)</button>
+                            </div>
+                        </div>
+
+                        <!-- Price display box -->
+                        <div class="price-box-highlight">
+                            <span class="optom-tag" id="tag-tovac">OPTOM NARXI: C-2652 (26 sm) uchun</span>
+                            <div class="active-price-usd" id="usd-tovac">20 $</div>
+                            <div class="active-price-uzs" id="uzs-tovac">~ 257 000 so'm</div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block master-add-btn" id="btn-tovac" data-base-name="Gornitsa Chuqur Tova" data-size="C-2652 (26 sm)" data-usd="20" data-uzs="257000" data-img="images/soteynik_tova.jpg">
+                            Savatga Qo'shish
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 5. KLASSIK TOVALAR (22 sm -> 24 sm -> 26 sm) -->
+                <div class="master-product-card" data-category="tova_klassik" id="card-tovaklassik">
+                    <div class="master-image-box">
+                        <img src="images/soteynik_tova.png" alt="Gornitsa Klassik Tova" class="master-img scale-24sm" id="img-tovaklassik">
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Klassik Tova</span>
+                        <h3 class="product-title">Gornitsa Klassik Granit Tova</h3>
+                        <p class="product-brief">Ertalabki tuxum, kotlet va sabzavotlarni tezkor qovurish uchun ixcham tova.</p>
+
+                        <!-- Size Pills -->
+                        <div class="selector-block">
+                            <span class="selector-label">Diametri (sm):</span>
+                            <div class="size-pills" data-target="tovaklassik">
+                                <button type="button" class="size-pill" data-size="22 sm" data-usd="11.5" data-uzs="147000" data-scale="scale-22sm">22 sm</button>
+                                <button type="button" class="size-pill active" data-size="24 sm" data-usd="12.8" data-uzs="164000" data-scale="scale-24sm">24 sm</button>
+                                <button type="button" class="size-pill" data-size="26 sm" data-usd="13.5" data-uzs="173000" data-scale="scale-26sm">26 sm</button>
+                            </div>
+                        </div>
+
+                        <!-- Price display box -->
+                        <div class="price-box-highlight">
+                            <span class="optom-tag" id="tag-tovaklassik">OPTOM NARXI: 24 sm uchun</span>
+                            <div class="active-price-usd" id="usd-tovaklassik">12.8 $</div>
+                            <div class="active-price-uzs" id="uzs-tovaklassik">~ 164 000 so'm</div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block master-add-btn" id="btn-tovaklassik" data-base-name="Gornitsa Klassik Tova" data-size="24 sm" data-usd="12.8" data-uzs="164000" data-img="images/soteynik_tova.jpg">
+                            Savatga Qo'shish
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 6. KOVSH (1.0L -> 1.5L -> 2.0L) -->
+                <div class="master-product-card" data-category="kovsh" id="card-kovsh">
+                    <div class="master-image-box">
+                        <img src="images/kovsh.png" alt="Gornitsa Quyma Kovsh" class="master-img scale-15l" id="img-kovsh">
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Quyma Kovsh</span>
+                        <h3 class="product-title">Gornitsa Dastali Kovsh</h3>
+                        <p class="product-brief">Uzun dastali kichik qozoncha. Sut, bo'tqa, souslar va taom isitish uchun.</p>
+
+                        <!-- Size Pills -->
+                        <div class="selector-block">
+                            <span class="selector-label">Hajmi (Litr):</span>
+                            <div class="size-pills" data-target="kovsh">
+                                <button type="button" class="size-pill" data-size="1.0 L" data-usd="16.5" data-uzs="212000" data-scale="scale-1l">1.0 L</button>
+                                <button type="button" class="size-pill active" data-size="1.5 L" data-usd="17.5" data-uzs="225000" data-scale="scale-15l">1.5 L</button>
+                                <button type="button" class="size-pill" data-size="2.0 L" data-usd="18" data-uzs="231000" data-scale="scale-2l">2.0 L</button>
+                            </div>
+                        </div>
+
+                        <!-- Price display box -->
+                        <div class="price-box-highlight">
+                            <span class="optom-tag" id="tag-kovsh">OPTOM NARXI: 1.5 L uchun</span>
+                            <div class="active-price-usd" id="usd-kovsh">17.5 $</div>
+                            <div class="active-price-uzs" id="uzs-kovsh">~ 225 000 so'm</div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block master-add-btn" id="btn-kovsh" data-base-name="Gornitsa Kovsh" data-size="1.5 L" data-usd="17.5" data-uzs="225000" data-img="images/kovsh.jpg">
+                            Savatga Qo'shish
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 7. GRILL TOVA (26 sm -> 28 sm) -->
+                <div class="master-product-card" data-category="grill" id="card-grill">
+                    <div class="master-image-box">
+                        <img src="images/grilnitsa.png" alt="Gornitsa Grill Tova" class="master-img scale-28sm" id="img-grill">
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Grill Tova</span>
+                        <h3 class="product-title">Gornitsa Grill Tova (Grilnitsa)</h3>
+                        <p class="product-brief">To'rtburchak shakldagi relefli panjara tubi go'sht va sabzavotlarga chiroyli chiziq beradi.</p>
+
+                        <!-- Size Pills -->
+                        <div class="selector-block">
+                            <span class="selector-label">O'lchami (sm):</span>
+                            <div class="size-pills" data-target="grill">
+                                <button type="button" class="size-pill" data-size="26 sm" data-usd="17" data-uzs="218000" data-scale="scale-26sm">26 sm</button>
+                                <button type="button" class="size-pill active" data-size="28 sm" data-usd="18" data-uzs="231000" data-scale="scale-28sm">28 sm</button>
+                            </div>
+                        </div>
+
+                        <!-- Price display box -->
+                        <div class="price-box-highlight">
+                            <span class="optom-tag" id="tag-grill">OPTOM NARXI: 28 sm uchun</span>
+                            <div class="active-price-usd" id="usd-grill">18 $</div>
+                            <div class="active-price-uzs" id="uzs-grill">~ 231 000 so'm</div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block master-add-btn" id="btn-grill" data-base-name="Gornitsa Grill Tova" data-size="28 sm" data-usd="18" data-uzs="231000" data-img="images/grilnitsa.jpg">
+                            Savatga Qo'shish
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 8. JARONVYA (3.5L -> 4.0L -> 4.5L -> 5.5L) -->
+                <div class="master-product-card" data-category="zharovnya" id="card-jaronvya">
+                    <div class="master-image-box">
+                        <img src="images/zharovnya.png" alt="Gornitsa Jaronvya" class="master-img scale-4l" id="img-jaronvya">
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Quyma Jaronvya</span>
+                        <h3 class="product-title">Gornitsa Quyma Jaronvya</h3>
+                        <p class="product-brief">Past devorli keng quyma idish, ikkita yon tutqichli va shisha qopqoqli. Dimlama taomlar uchun.</p>
+
+                        <!-- Size Pills -->
+                        <div class="selector-block">
+                            <span class="selector-label">Model va Hajmi:</span>
+                            <div class="size-pills" data-target="jaronvya">
+                                <button type="button" class="size-pill" data-size="J-2832 (3.5 L)" data-usd="22.5" data-uzs="289000" data-scale="scale-35l">J-2832 (3.5 L)</button>
+                                <button type="button" class="size-pill active" data-size="J-7128 (4.0 L)" data-usd="23" data-uzs="295000" data-scale="scale-4l">J-7128 (4.0 L)</button>
+                                <button type="button" class="size-pill" data-size="J-7130 (4.5 L)" data-usd="24.5" data-uzs="315000" data-scale="scale-45l">J-7130 (4.5 L)</button>
+                                <button type="button" class="size-pill" data-size="J-7132 (5.5 L)" data-usd="26" data-uzs="334000" data-scale="scale-55l">J-7132 (5.5 L)</button>
+                            </div>
+                        </div>
+
+                        <!-- Price display box -->
+                        <div class="price-box-highlight">
+                            <span class="optom-tag" id="tag-jaronvya">OPTOM NARXI: J-7128 (4.0 L) uchun</span>
+                            <div class="active-price-usd" id="usd-jaronvya">23 $</div>
+                            <div class="active-price-uzs" id="uzs-jaronvya">~ 295 000 so'm</div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block master-add-btn" id="btn-jaronvya" data-base-name="Gornitsa Jaronvya" data-size="J-7128 (4.0 L)" data-usd="23" data-uzs="295000" data-img="images/zharovnya.jpg">
+                            Savatga Qo'shish
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 9. 10 TALIK TO'LIQ NABOR (130$) -->
+                <div class="master-product-card" data-category="nabor" id="card-nabor">
+                    <div class="master-image-box">
+                        <img src="images/nabor_10.png" alt="Gornitsa 10 talik nabor" class="master-img scale-10l" id="img-nabor">
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">To'liq To'plam</span>
+                        <h3 class="product-title">Gornitsa 10 Talik Oila Nabori</h3>
+                        <p class="product-brief">Qozon, kastryulka, chuqur tova, blinnitsa, kovsh va 5 ta qopqoq jamlangan to'liq to'plam.</p>
+
+                        <div class="selector-block">
+                            <span class="selector-label">To'plam tarkibi:</span>
+                            <div class="size-pills">
+                                <span class="size-pill active">10 ta buyum</span>
+                            </div>
+                        </div>
+
+                        <!-- Price display box -->
+                        <div class="price-box-highlight">
+                            <span class="optom-tag">TO'LIQ TO'PLAM NARXI</span>
+                            <div class="active-price-usd">130 $</div>
+                            <div class="active-price-uzs">~ 1 670 000 so'm</div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block master-add-btn" data-base-name="Gornitsa 10 Talik Oila Nabori" data-size="10 talik" data-usd="130" data-uzs="1670000" data-img="images/nabor_10.jpg">
+                            Savatga Qo'shish — 130 $
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Features / About Section -->
+    <section class="section section-about" id="about">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Nega GORNITSA O'ZBEKISTON?</span>
+                <h2 class="section-title">Taomlaringiz Mazali va Foydali Bo'lishi Uchun</h2>
+                <p class="section-subtitle">Ko'p yillik tajriba, mustahkam quyma alyuminiy va Yevropa xavfsizlik standartlari.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-box">🍳</div>
+                    <h3 class="feature-card-title">Yog'siz Sog'lom Taomlar</h3>
+                    <p class="feature-card-desc">Innovatsion granit qoplamasi taomlarni minimal yog' bilan yoki mutlaqo yog'siz tayyorlashga imkon beradi. Tagiga olmaydi.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon-box">⚡</div>
+                    <h3 class="feature-card-title">Qalin Quyma Tub (6–8 mm)</h3>
+                    <p class="feature-card-desc">Yupqa tovalar kabi vaqt o'tishi bilan qiyshaymaydi. Issiqlikni to'plab, butun yuzaga bir tekis tarqatadi.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon-box">🌿</div>
+                    <h3 class="feature-card-title">100% Xavfsiz va Ekologik</h3>
+                    <p class="feature-card-desc">Tarkibida PFOA, qo'rg'oshin yoki kadmiy moddalari yo'q. Qiziganda hech qanday zararli hid va moddalar ajratmaydi.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon-box">🛡️</div>
+                    <h3 class="feature-card-title">Zavod Kafolati</h3>
+                    <p class="feature-card-desc">Har bir idish to'liq sifat nazoratidan o'tgan. Ishonchli, qalin shisha qopqoq va uzoq yillik xizmat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="section section-technology" id="technology">
+        <div class="container tech-grid">
+            <div class="tech-content">
+                <span class="section-tag">Zavod Texnologiyasi</span>
+                <h2 class="section-title">Ko'p Qatlamli Granit Qoplamaning Tuzilishi</h2>
+                <p class="tech-description">
+                    GORNITSA mahsulotlari qo'lda bosim ostida quyilgan oziq-ovqat alyuminiyidan tayyorlanadi va Germaniya texnologiyasi asosida ko'p bosqichli qoplama bilan himoyalanadi.
+                </p>
+
+                <div class="layer-steps">
+                    <div class="layer-step">
+                        <div class="layer-num">1</div>
+                        <div>
+                            <h4>Oziq-ovqat Quyma Alyuminiyi</h4>
+                            <p>Qalinligi 6 dan 8 mm gacha bo'lgan pishiq korpus issiqlikni uzoq vaqt ushlab turadi.</p>
+                        </div>
+                    </div>
+                    <div class="layer-step">
+                        <div class="layer-num">2</div>
+                        <div>
+                            <h4>Gruntovka va Mustahkamlovchi Qatlam</h4>
+                            <p>Metall va qoplamaning mustahkam yopishishini ta'minlaydi, ko'chib ketishining oldini oladi.</p>
+                        </div>
+                    </div>
+                    <div class="layer-step">
+                        <div class="layer-num">3</div>
+                        <div>
+                            <h4>Mineral Granit Zarrachalari</h4>
+                            <p>Tirnalishlarga chidamlilik beradi va uzoq yillik xizmat muddatini kafolatlaydi.</p>
+                        </div>
+                    </div>
+                    <div class="layer-step">
+                        <div class="layer-num">4</div>
+                        <div>
+                            <h4>Top-Coat Yopishmaslik Qatlami</h4>
+                            <p>Ovqatlarning mutlaqo yopishmasligi va suv ostida bir zumda oson yuvilishini ta'minlaydi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-visual">
+                <div class="tech-card-box">
+                    <img src="images/blinnitsa.jpg" alt="Gornitsa Blinnitsa sifati" class="tech-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section class="section section-contacts" id="contacts">
+        <div class="container contacts-grid">
+            <div class="contacts-info">
+                <span class="section-tag">Biz Bilan Bog'lanish</span>
+                <h2 class="section-title">GORNITSA O'ZBEKISTON Rasmiy Do'koni</h2>
+                <p class="contacts-desc">
+                    Mutaxassisimiz bilan to'g'ridan-to'g'ri bog'laning, o'lcham tanlashda va yetkazib berishda to'liq yordam beramiz.
+                </p>
+
+                <div class="contacts-list">
+                    <div class="contact-entry">
+                        <span class="entry-icon">📞</span>
+                        <div>
+                            <strong>Buyurtmalar uchun telefon:</strong>
+                            <p><a href="tel:+998977035131">+998 (97) 703-51-31</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-entry">
+                        <span class="entry-icon">👨‍💼</span>
+                        <div>
+                            <strong>Admin raqami:</strong>
+                            <p><a href="tel:+998954115555">+998 (95) 411-55-55</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-entry">
+                        <span class="entry-icon">💬</span>
+                        <div>
+                            <strong>Telegram Buyurtmalar:</strong>
+                            <p><a href="https://t.me/ergashev_395" target="_blank" style="color: var(--primary); font-weight: 700;">@ergashev_395</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-entry">
+                        <span class="entry-icon">✈️</span>
+                        <div>
+                            <strong>Rasmiy Telegram Kanalimiz:</strong>
+                            <p><a href="https://t.me/EMALGORNITSAPLAST" target="_blank">@EMALGORNITSAPLAST</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contacts-form-box">
+                <h3 class="form-title">Tezkor Buyurtma Qoldirish</h3>
+                <p class="form-subtitle">Ismingiz va telefon raqamingizni yozing, tez orada sizga qo'ng'iroq qilamiz.</p>
+                <form id="contact-form" class="direct-form">
+                    <div class="form-group">
+                        <label for="c-name">Ismingiz</label>
+                        <input type="text" id="c-name" placeholder="Masalan: Azizbek" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="c-phone">Telefon raqamingiz</label>
+                        <input type="tel" id="c-phone" placeholder="+998 97 703 51 31" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="c-note">Qaysi mahsulot kerak?</label>
+                        <textarea id="c-note" rows="3" placeholder="Masalan: 5 litrlik kastryul yoki 10 talik nabor buyurtma qilmoqchiman"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" id="submit-contact-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 6px;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.77-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+                        Telegram orqali Buyurtma Qoldirish
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col brand-col">
+                <a href="#" class="brand-logo footer-logo">
+                    <img src="images/logo_official.png" alt="GORNITSA O'ZBEKISTON Logotipi" style="height: 52px; border-radius: 8px;">
+                </a>
+                <p class="footer-tagline">Rossiyaning "GORNITSA" quyma idishlar zavodining O'zbekistondagi rasmiy distribyutori.</p>
+                <div class="footer-socials">
+                    <a href="https://t.me/EMALGORNITSAPLAST" target="_blank" aria-label="Telegram">TG</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Mahsulotlar</h4>
+                <ul>
+                    <li><a href="#catalog">Kastryulkalar (2L — 10L)</a></li>
+                    <li><a href="#catalog">Qozonlar (4L — 10L)</a></li>
+                    <li><a href="#catalog">Blinnitsalar (22 — 26 sm)</a></li>
+                    <li><a href="#catalog">Chuqur Tovalar</a></li>
+                    <li><a href="#spotlight-nabor">10 Talik Nabor (130$)</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Aloqa</h4>
+                <p>Buyurtmalar: <a href="tel:+998977035131">+998 97 703-51-31</a></p>
+                <p>Admin: <a href="tel:+998954115555">+998 95 411-55-55</a></p>
+                <p>Telegram: <a href="https://t.me/EMALGORNITSAPLAST" target="_blank">@EMALGORNITSAPLAST</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container bottom-flex">
+                <p>&copy; 2026 GORNITSA O'ZBEKISTON. Barcha huquqlar himoyalangan.</p>
+                <p class="footer-links">
+                    <a href="https://t.me/EMALGORNITSAPLAST" target="_blank">@EMALGORNITSAPLAST</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Drawer (Off-canvas) -->
+    <div class="cart-backdrop" id="cart-backdrop"></div>
+    <aside class="cart-drawer" id="cart-drawer">
+        <div class="cart-header">
+            <h3>Savatchangiz (<span id="drawer-count">0</span> dona)</h3>
+            <button class="close-cart-btn" id="close-cart-btn">&times;</button>
+        </div>
+
+        <div class="cart-body" id="cart-items-container">
+            <div class="cart-empty-state" id="empty-cart-message">
+                <span class="empty-icon">🛒</span>
+                <p>Savatchangiz hozircha bo'sh</p>
+                <a href="#catalog" class="btn btn-outline btn-sm" id="cart-shop-now">Katalogdan tanlash</a>
+            </div>
+        </div>
+
+        <div class="cart-footer" id="cart-footer">
+            <div class="cart-subtotal-row">
+                <span>Jami dollar:</span>
+                <strong id="cart-total-usd">0 $</strong>
+            </div>
+            <div class="cart-subtotal-row">
+                <span>So'mda (taxminan):</span>
+                <strong id="cart-total-uzs" style="font-size: 1.1rem; color: #f5a623;">0 so'm</strong>
+            </div>
+            <p class="delivery-notice">Yetkazib berish shahar va viloyat bo'yicha kelishiladi</p>
+            <button class="btn btn-primary btn-block btn-checkout" id="checkout-btn">
+                Buyurtmani Rasmiylashtirish
+            </button>
+        </div>
+    </aside>
+
+    <!-- Checkout Modal -->
+    <div class="modal-overlay" id="checkout-modal">
+        <div class="modal-card">
+            <button class="modal-close-btn" id="close-checkout-modal">&times;</button>
+            <h3 class="modal-title">Buyurtmani Tasdiqlash</h3>
+            <p class="modal-subtitle">Ma'lumotlaringizni to'ldiring, buyurtmangizni 10 daqiqada qabul qilamiz.</p>
+            
+            <div class="modal-order-summary" id="modal-summary"></div>
+
+            <form id="order-form" class="modal-form">
+                <div class="form-group">
+                    <label for="order-name">Ism va familiyangiz</label>
+                    <input type="text" id="order-name" placeholder="Masalan: Sardor Aliyev" required>
+                </div>
+                <div class="form-group">
+                    <label for="order-phone">Telefon raqamingiz</label>
+                    <input type="tel" id="order-phone" placeholder="+998 97 703 51 31" required>
+                </div>
+                <div class="form-group">
+                    <label for="order-address">Yetkazib berish manzili</label>
+                    <input type="text" id="order-address" placeholder="Shahar, tuman, ko'cha, uy raqami" required>
+                </div>
+                <div class="form-group">
+                    <label>To'lov usuli</label>
+                    <div class="payment-options">
+                        <label class="radio-label">
+                            <input type="radio" name="payment" value="naqd" checked>
+                            <span>Qabul qilganda to'lash (Naqd / Karta)</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="payment" value="click">
+                            <span>Click / Payme</span>
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="confirm-order-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 6px;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.77-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+                    Telegram orqali Tasdiqlash
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast-notification" id="toast">
+        <span class="toast-icon">✓</span>
+        <span class="toast-message" id="toast-message">Mahsulot savatchaga qo'shildi!</span>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="catalog-all.js"></script>
+    <script src="uch-o-lcham.js"></script>
+</body>
+</html>
